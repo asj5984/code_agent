@@ -1,0 +1,10 @@
+langchain>=1.0,<2.0
+langchain-openai>=0.2
+pandas>=2.0
+matplotlib>=3.7
+python-dotenv>=1.0
+pydantic>=2.0
+streamlit>=1.38
+
+# LangGraph Studio 로컬 실행용 (개발 시에만 필요)
+langgraph-cli[inmem]>=0.4

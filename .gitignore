@@ -1,0 +1,23 @@
+# 환경변수 / API 키 (절대 커밋 금지)
+.env
+.streamlit/secrets.toml
+
+# 파이썬 캐시
+__pycache__/
+*.pyc
+*.pyo
+
+# 가상환경
+.venv/
+venv/
+env/
+
+# 에이전트가 실행 중 생성하는 결과물 (테스트하다 프로젝트 폴더 안에 남았을 수 있음)
+*_chart.png
+*_analysis.py
+
+# macOS
+.DS_Store
+
+# 로그
+*.log
